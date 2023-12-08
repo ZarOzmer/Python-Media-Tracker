@@ -90,13 +90,13 @@ while True:
     clear()
     print(
     '''Welcome to the Python Media Tracker. 
-    This aplication is intented to allow you to track pices of midea you'd like to consume and help alleviate ADHD bordem paralysis
+    This aplication is intented to allow you to track pieces of midea you'd like to consume and help alleviate ADHD boredom paralysis
     '''
     )
     userIn = input(
     """What would you like to do today?  
     If you would like at add a new piece of midea, type: -A 
-    If you have finnished a pice of media or no longer whant to consume it, type: -R
+    If you have finnished a piece of media or no longer whant to consume it, type: -R
     If you're board and want to consume some media, type: -B
     if you're done with the program type: -E
     """
@@ -106,7 +106,7 @@ while True:
     elif userIn == '-B':
         getMedia()
     elif userIn == '-E':
-        break
+        exit()
     elif userIn == '-R':
         removeMedia()
     temp =input("press enter when you're done with what's currently on screen")
